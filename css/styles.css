@@ -1,0 +1,51 @@
+div h1, div h2 {
+    font-family: "am-udine", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+div h1, div h2 {
+    color: #FECA76;
+    font-size:50px;
+    text-align: center;
+}
+
+div h3 {
+    font-family: "am-udine", sans-serif;
+    font-weight: 400;
+    font-style: normal
+    }
+
+div h3 {
+    color: #FECA76;
+    font-size:50px;
+    text-align: center;
+}
+
+div p strong {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+div p {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+div p {
+    color: #fff3e9;
+}
+
+.price{
+    color: #FECA76;
+}
+
+div, footer {
+    background-color: #d32f39;
+    padding: 10px;
+  }
