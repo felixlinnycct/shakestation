@@ -1,26 +1,72 @@
-div h1, div h2 {
+
+
+div h1 {
     font-family: "am-udine", sans-serif;
     font-weight: 400;
-    font-style: normal
-}
-
-div h1, div h2 {
+    font-style: normal;
     color: #FECA76;
     font-size:50px;
     text-align: center;
 }
 
+.aboutlabel{
+    font-family: "redondo-ave", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:90px;
+    color: #FECA76;
+    text-align: center;
+}
+
+.label{
+    font-family: "redondo-ave", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:150px;
+    color: #FECA76;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #f7b752;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlogo{padding-top: 16px;
+padding-bottom: 16px;}
+
+.navlinks{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #202020;
+}
+
+.top{
+    padding-top:195px;
+}
+
+.welcome{
+    padding-top: 250px;
+    padding-bottom:250px;
+}
+
+
 div h3 {
     font-family: "am-udine", sans-serif;
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
+    color: #FECA76;
+    font-size:60px;
+    text-align: center;
     }
 
-div h3 {
-    color: #FECA76;
-    font-size:50px;
-    text-align: center;
-}
 
 div p strong {
     font-family: "proxima-nova", sans-serif;
@@ -35,9 +81,6 @@ div p {
     font-weight: 300;
     font-style: normal;
     font-size: 18px;
-}
-
-div p {
     color: #fff3e9;
 }
 
@@ -48,4 +91,25 @@ div p {
 div, footer {
     background-color: #d32f39;
     padding: 10px;
+  }
+
+.button{
+    border: none;
+    border-radius: 12px;
+    color: black;
+    background-color:#f7b752;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    display: inline-block;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
