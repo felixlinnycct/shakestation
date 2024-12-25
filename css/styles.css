@@ -42,10 +42,15 @@ padding-bottom: 16px;}
     justify-content: center;
     width: 100%;
     text-align: center;
-    font-family: "proxima-nova", sans-serif;
+    font-family: gala, sans-serif;
     font-weight: 500;
+    font-size: 30px;
     font-style: normal;
-    color: #202020;
+    color: #292929;
+}
+
+img{
+    border-radius: 25px;
 }
 
 .top{
@@ -93,6 +98,26 @@ div, footer {
     padding: 10px;
   }
 
+.reserve{font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;}
+
+form p{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+}
+
+.contact{
+    font-family: gala, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: #FECA76;
+}
+
 .button{
     border: none;
     border-radius: 12px;
@@ -100,7 +125,7 @@ div, footer {
     background-color:#f7b752;
     padding: 15px 32px;
     text-align: center;
-    font-family: "proxima-nova", sans-serif;
+    font-family: gala, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 30px;
